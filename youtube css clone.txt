@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+nav img {
+  height: 30px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.left-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.burger img {
+  margin: 0px 20px;
+}
+.youtube-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+.youtube-icon span {
+  font-weight: bold;
+  font-size: 30px;
+}
+.mid-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mid-nav-left {
+  display: flex;
+
+  border: 1px solid gray;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.mid-nav-left input {
+  width: 400px;
+  font-size: 15px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: none;
+  border-right: 1px solid gray;
+  outline: none;
+  padding: 7px;
+  padding-left: 15px;
+}
+.mid-nav-left input::placeholder {
+  color: gray;
+  font-size: 15px;
+}
+.mid-nav-img {
+  width: 50px;
+  text-align: center;
+  background-color: wheat;
+  height: 10%;
+}
+.mid-nav-img img {
+  height: 20px;
+}
+.mid-nav-right {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(239, 232, 232);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.mid-nav-right img {
+  height: 20px;
+}
+.right-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-nav-create-btn {
+  background-color: rgb(239, 232, 232);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  column-gap: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.right-nav-create-btn img {
+  height: 20px;
+}
+.bell-img {
+  height: 20px;
+  margin: 0 20px;
+}
+.chanel-name {
+  height: 40px;
+  width: 40px;
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.container {
+  display: flex;
+  column-gap: 15px;
+}
+.left-container {
+  /* border-right: 1px solid gray;*/
+  height: 90vh;
+  width: 20%;
+}
+.right-container {
+  /* border: 1px solid gray;*/
+  height: 90vh;
+  width: 92%;
+}
+.top-left {
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+  flex-direction: column;
+  margin-top: 20px;
+}
+.left-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  /*margin: 10px 0px;*/
+  padding: 5px 0px;
+  /*margin-left: 40px;*/
+  width: 90%;
+}
+.left-icon-container:hover {
+  background-color: gray;
+}
+.icon-svg {
+  margin-right: 10px;
+  height: 30px;
+  margin-right: 25px;
+  margin-left: 28px;
+  font-size: 30px;
+}
+.icon-svg svg {
+  height: 20px;
+}
+.top-para {
+  width: 70%;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.icon-img {
+  margin-right: 10px;
+  height: 25px;
+  width: 20px;
+  margin-right: 25px;
+  margin-left: 28px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.icon-img img {
+  height: 100%;
+  width: 100%;
+}
+.right-top-header {
+  display: flex;
+  margin: 20px 0;
+}
+.header-btn {
+  display: flex;
+  column-gap: 15px;
+  margin: 10px;
+}
+.header-btn .btn {
+  height: 30px;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  /*border: 1px solid gray;*/
+  border: none;
+  font-weight: bold;
+  background-color: rgb(239, 232, 232);
+}
+.card-container {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 5px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.card-img {
+  height: 250px;
+  width: 370px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card img img {
+  height: 100%;
+  width: 100%;
+}
+.card-info {
+  display: flex;
+  /*justify-content: center;
+  align-items: center;*/
+  margin-top: 10px;
+  column-gap: 10px;
+}
+.chanel-img {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+.chanel-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.video-info {
+  display: flex;
+  flex-direction: column;
+}
+.video-info p {
+  margin-bottom: 5px;
+}
+.video-info div {
+  font-size: 13px;
+  color: rgb(75, 72, 72);
+}
