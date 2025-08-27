@@ -1,0 +1,34 @@
+//play animation
+for (i = 0; i < 3; i++) {
+  document
+    .querySelectorAll(".mybutton")
+    [i].addEventListener("click", function () {
+      var text = this.innerHTML;
+      console.log(text);
+      audioplay(text);
+      playanimation(text);
+    });
+}
+function audioplay(text) {
+  switch (text) {
+    case "a":
+      var audio = new Audio("button-pressed-38129.mp3");
+      audio.play();
+      break;
+    case "b":
+      var audio = new Audio("menu-button-88360.mp3");
+      audio.play();
+      break;
+    case "c":
+      var audio = new Audio("old-radio-button-click-97549.mp3");
+      audio.play();
+  }
+}
+function playanimation(text) {
+  var selectedbutton = document.querySelector("." + text);
+  selectedbutton.classList.add("anim");
+
+  setTimeout(function () {
+    selectedbutton.classList.remove("anim");
+  }, 1000);
+}
